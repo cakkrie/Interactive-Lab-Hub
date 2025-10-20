@@ -209,7 +209,7 @@ Connect it to your pi with Qwiic connector and try running the example script to
 ```
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python qwiic_distance.py
 ```
-</detials>
+</details>
 
 You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_Proximity_Py) to learn more about the sensor and see other examples
 
