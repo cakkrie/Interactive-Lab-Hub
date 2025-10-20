@@ -86,13 +86,16 @@ The final assembly needs to be robust enough for it to hold together and be held
 
 **Photos/videos of your cardboard prototype**
 <p align="center">
-  <img src="prototype/Cardboard_Prototype_1.jpg" width="50%"/>
+  <img src="prototype/Cardboard_Prototype_1.jpg" width="30%"/>
+  <img src="prototype/Cardboard_Prototype_3.jpg" width="30%"/>
+  <img src="prototype/Cardboard_Prototype_4.jpg" width="30%"/>
+</p>
+
+<p align="center">
+
   <img src="prototype/Cardboard_Prototype_2.jpg" width="50%"/>
 </p>
-<p align="center">
-  <img src="prototype/Cardboard_Prototype_3.jpg" width="40%"/>
-  <img src="prototype/Cardboard_Prototype_4.jpg" width="40%"/>
-</p>
+
 
 
 ---
