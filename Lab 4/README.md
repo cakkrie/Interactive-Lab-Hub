@@ -80,7 +80,8 @@ F) [Record the interaction](#part-f)
 
 ## The Report (Part 1: A-D, Part 2: E-F)
 
-### Quick Start: Python Environment Setup
+<details> 
+<summary><strong>Quick Start: Python Environment Setup</strong></summary>
 
 1. **Create and activate a virtual environment in Lab 4:**
 	```bash
@@ -98,8 +99,11 @@ F) [Record the interaction](#part-f)
 	```
 	If you see "Hello blinka!", your setup is correct. If not, follow the troubleshooting steps in the file or ask for help.
 
+</details>
 ### Part A
-### Capacitive Sensing, a.k.a. Human-Twizzler Interaction 
+
+<details> 
+<summary><strong>Capacitive Sensing, a.k.a. Human-Twizzler Interaction </strong></summary>
 
 We want to introduce you to the [capacitive sensor](https://learn.adafruit.com/adafruit-mpr121-gator) in your kit. It's one of the most flexible input devices we are able to provide. At boot, it measures the capacitance on each of the 12 contacts. Whenever that capacitance changes, it considers it a user touch. You can attach any conductive material. In your kit, you have copper tape that will work well, but don't limit yourself! In the example below, we use Twizzlers--you should pick your own objects.
 
@@ -118,6 +122,8 @@ These Twizzlers are connected to pads 6 and 10. When you run the code and touch 
 Twizzler 10 touched!
 Twizzler 6 touched!
 ```
+
+</details>
 
 ### Part B
 ### More sensors
