@@ -60,8 +60,8 @@ Video demonstration:
 #### D. Display & Housing**
 5 sketches for display/button/knob positioning
 <p align="center">
-  <img src="sketches/Form_Image_1.png" width="50%"/>
-  <img src="sketches/Form_Image_2.png" width="50%"/>
+  <img src="sketches/Form_Image_1.png" width="30%"/>
+  <img src="sketches/Form_Image_2.png" width="30%"/>
 </p>
 <p align="center">
   <img src="sketches/Form_Image_3.png" width="50%"/>
