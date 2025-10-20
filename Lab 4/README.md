@@ -213,19 +213,14 @@ Connect it to your pi with Qwiic connector and try running the example script to
 
 You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_Proximity_Py) to learn more about the sensor and see other examples
 
+
 ### Part C
+
 Physical considerations for sensing
 
 Usually, sensors need to be positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
 
-
-**\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
-
-**\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
-
-**\*\*\*Pick one of these designs to prototype.\*\*\***
-
-**5 sketches of different ways to use your chosen sensor**
+**Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.**
 <p align="center">
   <img src="sketches/Interaction_Image_1.png" width="40%"/>
   <img src="sketches/Interaction_Image_2.png" width="40%"/>
@@ -239,7 +234,7 @@ Usually, sensors need to be positioned in specific locations or orientations to 
 </p>
 
 
-**Written reflection: questions raised, what to prototype**
+**What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?**
 As we decided to narrow down our ideas further, we found that having a specific kind of game made the design of our interaction far more deliberate and filled with intention, so we decided to select the game Snake as a preliminary game to design our controller off of. The classic Snake made use of up, down, left, and right controls. Furthermore, the game relied on timing and precision in order for a player to navigate the winding path that the snake creates. Because of this, we wanted to think about how we might be able to place a directional pad or some other form of directional movement analog, in a way that is both playful but also takes into account the affordance of instant control over the snake character.
 
 **Pick one design to prototype and explain why**
