@@ -127,9 +127,10 @@ Twizzler 6 touched!
 </details>
 
 ### Part B
-### More sensors
 
-#### Light/Proximity/Gesture sensor (APDS-9960)
+<details> 
+
+<summary><strong>Light/Proximity/Gesture sensor (APDS-9960)</strong></summary>
 
 We here want you to get to know this awesome sensor [Adafruit APDS-9960](https://www.adafruit.com/product/3595). It is capable of sensing proximity, light (also RGB), and gesture! 
  
@@ -149,7 +150,10 @@ Connect it to your pi with Qwiic connector and try running the three example scr
 
 You can go the the [Adafruit GitHub Page](https://github.com/adafruit/Adafruit_CircuitPython_APDS9960) to see more examples for this sensor!
 
-#### Rotary Encoder 
+</details>
+
+<details> 
+<summary><strong>Rotary Encoder</strong></summary>
 
 A rotary encoder is an electro-mechanical device that converts the angular position to analog or digital output signals. The [Adafruit rotary encoder](https://www.adafruit.com/product/4991#technical-details) we ordered for you came with separate breakout board and encoder itself, that is, they will need to be soldered if you have not yet done so! We will be bringing the soldering station to the lab class for you to use, also, you can go to the MakerLAB to do the soldering off-class. Here is some [guidance on soldering](https://learn.adafruit.com/adafruit-guide-excellent-soldering/preparation) from Adafruit. When you first solder, get someone who has done it before (ideally in the MakerLAB environment). It is a good idea to review this material beforehand so you know what to look at.
 
@@ -168,8 +172,11 @@ Connect it to your pi with Qwiic connector and try running the example script, i
 
 You can go to the [Adafruit Learn Page](https://learn.adafruit.com/adafruit-i2c-qt-rotary-encoder/python-circuitpython) to learn more about the sensor! The sensor actually comes with an LED (neo pixel): Can you try lighting it up? 
 
-#### Joystick 
+</details> 
 
+
+<details> 
+<summary><strong>Joystick</strong></summary>
 
 A [joystick](https://www.sparkfun.com/products/15168) can be used to sense and report the input of the stick for it pivoting angle or direction. It also comes with a button input!
 
@@ -185,8 +192,10 @@ Connect it to your pi with Qwiic connector and try running the example script to
 
 You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_Joystick_Py) to learn more about the sensor!
 
-#### Distance Sensor
+</details>
 
+<details>
+<summary><strong>Distance Sensor</strong></summary>
 
 Earlier we have asked you to play with the proximity sensor, which is able to sense objects within a short distance. Here, we offer [Sparkfun Proximity Sensor Breakout](https://www.sparkfun.com/products/15177), With the ability to detect objects up to 20cm away.
 
@@ -200,12 +209,12 @@ Connect it to your pi with Qwiic connector and try running the example script to
 ```
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python qwiic_distance.py
 ```
+</detials>
 
 You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_Proximity_Py) to learn more about the sensor and see other examples
 
 ### Part C
-### Physical considerations for sensing
-
+Physical considerations for sensing
 
 Usually, sensors need to be positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
 
