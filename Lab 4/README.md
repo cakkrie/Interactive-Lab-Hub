@@ -1,121 +1,8 @@
 
 # Ph-UI!!!
 
-Collaborators: Thomas Knoepffler, Carrie Wang, Xiaocheng Li, Julia Chen, Dean Xu
-
-
-<details>
-	<summary><strong>Instructions for Students (Click to Expand)</strong></summary>
-  
-	**Submission Cleanup Reminder:**
-	- This README.md contains extra instructional text for guidance.
-	- Before submitting, remove all instructional text and example prompts from this file.
-	- You may delete these sections or use the toggle/hide feature in VS Code to collapse them for a cleaner look.
-	- Your final submission should be neat, focused on your own work, and easy to read for grading.
-  
-	This helps ensure your README.md is clear, professional, and uniquely yours!
-</details>
-
----
-
-## Lab 4 Deliverables
-
-### Part 1 (Week 1)
-
-#### A. Capacitive Sensing
-- Photos/videos of your Twizzler (or other object) capacitive sensor setup
-- Code and terminal output showing touch detection
-
-
-#### B. More Sensors
-- Photos/videos of each sensor tested (light/proximity, rotary encoder, joystick, distance sensor)
-- Code and terminal output for each sensor
-
-#### C. Physical Sensing Design
-**5 sketches of different ways to use your chosen sensor**
-<p align="center">
-  <img src="sketches/Interaction_Image_1.png" width="40%"/>
-  <img src="sketches/Interaction_Image_2.png" width="40%"/>
-</p>
-<p align="center">
-  <img src="sketches/Interaction_Image_3.png" width="40%"/>
-    <img src="sketches/Interaction_Image_4.png" width="40%"/>
-</p>
-<p align="center">
-  <img src="sketches/Interaction_Image_5.png" width="40%"/>
-</p>
-
-
-**Written reflection: questions raised, what to prototype**
-As we decided to narrow down our ideas further, we found that having a specific kind of game made the design of our interaction far more deliberate and filled with intention, so we decided to select the game Snake as a preliminary game to design our controller off of. The classic Snake made use of up, down, left, and right controls. Furthermore, the game relied on timing and precision in order for a player to navigate the winding path that the snake creates. Because of this, we wanted to think about how we might be able to place a directional pad or some other form of directional movement analog, in a way that is both playful but also takes into account the affordance of instant control over the snake character.
-
-**Pick one design to prototype and explain why**
-We created a very simple prototype utilizing a row of four tactile switches to denote each direction and coded a very simple prototype of the Snake game through the Raspberry Pi. While this set up was simple, we wanted to expand the control aspect further and started to take inspiration directly from the snake character itself for our physical housing and control enclosure.
-
-![Electronics Setup](prcoess/Electronics_Setup.png)
-Video demonstration: 
-[Interaction Demo](Lab 4/prototype/Interaction_Demo_[lowres].mp4)
-
-
-#### D. Display & Housing**
-5 sketches for display/button/knob positioning
-<p align="center">
-  <img src="sketches/Form_Image_1.png" width="40%"/>
-  <img src="sketches/Form_Image_2.png" width="40%"/>
-</p>
-<p align="center">
-  <img src="sketches/Form_Image_3.png" width="40%"/>
-    <img src="sketches/Form_Image_4.png" width="40%"/>
-</p>
-<p align="center">
-  <img src="sketches/Form_Image_5.png" width="40%"/>
-  <img src="sketches/Form_Image_6.png" width="40%"/>
-</p>
-
-**Written reflection: questions raised, what to prototype**
-While these controllers vary significantly in terms of their actuation and use case (i.e., specific game they are designed for), a few similarities arise. For one, they all deal with certain objects that are already indicative of normal human interaction (i.e. rackets, oars, etc.) or are familiar objects that are supposedly mapping onto a character in the game. Therefore, they make use of the mental model approach for physicalization, whereby phsyical objects that mimic digital assets give the impression of control over those assets. The question still remains if these mental models will be sufficient enough for people to understand how to play each game utilizing the control controller. That would open the door for user testing.
-
-**Pick one display design to integrate**
-We decided to take inspiration from the actual skeleton of a snake and consider its individual vertebrae as an underlying scaffolding for our controller. In the same way the vertebrae can bend and undulate in on themselves, so too would our controller. Through its undulations, the succeeding vertebrae would then click on ubiquitiously placed buttons on the preceding vertebrae, thus creating a type of controller that is activated through its bending.
-
-**Rationale for design**
-We wanted it to be unit based, so we created a general purpose, laser cut module in Rhino 3D that we would repeat over and over again across the assembly attached together by a string (i.e., beads on a string).
-Spaces and cavities need to be included so that the electronics and wiring could be able to pass through the assembly, in addition to being able to attach buttons onto the sides of each vertebrae section.
-The final assembly needs to be robust enough for it to hold together and be held by a user in both hands, but also flexible enough for it to be able to bend and undulate properly (i.e. press side buttons).
-![Spine Design](prcoess/Spine_Unit.png)
-
-**Photos/videos of your cardboard prototype**
-<p align="center">
-  <img src="prototype/Cardboard_Prototype_1.jpg" width="30%"/>
-  <img src="prototype/Cardboard_Prototype_3.jpg" width="30%"/>
-  <img src="prototype/Cardboard_Prototype_4.jpg" width="30%"/>
-</p>
-
-<p align="center">
-
-  <img src="prototype/Cardboard_Prototype_2.jpg" width="50%"/>
-</p>
-
-
-
----
-
-### Part 2 (Week 2)
-**Submit the following for Part 2:**  
-####E. Multi-Device Demo
-	- Code and video for your multi-input multi-output demo (e.g., chaining Qwiic buttons, servo, GPIO expander, etc.)
-	- Reflection on interaction effects and chaining
-
-####F. Final Documentation**
-	- Photos/videos of your final prototype
-	- Written summary: what it looks like, works like, acts like
-	- Reflection on what you learned and next steps
-
----
-
 ## Lab Overview
-**NAMES OF COLLABORATORS HERE**
-
+**Thomas Knoepffler, Carrie Wang, Xiaocheng Li, Julia Chen, Dean Xu**
 
 For lab this week, we focus both on sensing, to bring in new modes of input into your devices, as well as prototyping the physical look and feel of the device. You will think about the physical form the device needs to perform the sensing as well as present the display or feedback about what was sensed. 
 
@@ -318,6 +205,30 @@ Usually, sensors need to be positioned in specific locations or orientations to 
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
+**5 sketches of different ways to use your chosen sensor**
+<p align="center">
+  <img src="sketches/Interaction_Image_1.png" width="40%"/>
+  <img src="sketches/Interaction_Image_2.png" width="40%"/>
+</p>
+<p align="center">
+  <img src="sketches/Interaction_Image_3.png" width="40%"/>
+    <img src="sketches/Interaction_Image_4.png" width="40%"/>
+</p>
+<p align="center">
+  <img src="sketches/Interaction_Image_5.png" width="40%"/>
+</p>
+
+
+**Written reflection: questions raised, what to prototype**
+As we decided to narrow down our ideas further, we found that having a specific kind of game made the design of our interaction far more deliberate and filled with intention, so we decided to select the game Snake as a preliminary game to design our controller off of. The classic Snake made use of up, down, left, and right controls. Furthermore, the game relied on timing and precision in order for a player to navigate the winding path that the snake creates. Because of this, we wanted to think about how we might be able to place a directional pad or some other form of directional movement analog, in a way that is both playful but also takes into account the affordance of instant control over the snake character.
+
+**Pick one design to prototype and explain why**
+We created a very simple prototype utilizing a row of four tactile switches to denote each direction and coded a very simple prototype of the Snake game through the Raspberry Pi. While this set up was simple, we wanted to expand the control aspect further and started to take inspiration directly from the snake character itself for our physical housing and control enclosure.
+
+![Electronics Setup](prcoess/Electronics_Setup.png)
+Video demonstration: 
+[Interaction Demo](Lab 4/prototype/Interaction_Demo_[lowres].mp4)
+
 
 ### Part D
 ### Physical considerations for displaying information and housing parts
@@ -359,6 +270,32 @@ Here is an example:
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/horoscope.png?raw=true"  width="250"/>
 
 Think about how you want to present the information about what your sensor is sensing! Design a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
+
+**5 sketches for display/button/knob positioning**
+<p align="center">
+  <img src="sketches/Form_Image_1.png" width="40%"/>
+  <img src="sketches/Form_Image_2.png" width="40%"/>
+</p>
+<p align="center">
+  <img src="sketches/Form_Image_3.png" width="40%"/>
+    <img src="sketches/Form_Image_4.png" width="40%"/>
+</p>
+<p align="center">
+  <img src="sketches/Form_Image_5.png" width="40%"/>
+  <img src="sketches/Form_Image_6.png" width="40%"/>
+</p>
+
+**Written reflection: questions raised, what to prototype**
+While these controllers vary significantly in terms of their actuation and use case (i.e., specific game they are designed for), a few similarities arise. For one, they all deal with certain objects that are already indicative of normal human interaction (i.e. rackets, oars, etc.) or are familiar objects that are supposedly mapping onto a character in the game. Therefore, they make use of the mental model approach for physicalization, whereby phsyical objects that mimic digital assets give the impression of control over those assets. The question still remains if these mental models will be sufficient enough for people to understand how to play each game utilizing the control controller. That would open the door for user testing.
+
+**Pick one display design to integrate**
+We decided to take inspiration from the actual skeleton of a snake and consider its individual vertebrae as an underlying scaffolding for our controller. In the same way the vertebrae can bend and undulate in on themselves, so too would our controller. Through its undulations, the succeeding vertebrae would then click on ubiquitiously placed buttons on the preceding vertebrae, thus creating a type of controller that is activated through its bending.
+
+**Rationale for design**
+We wanted it to be unit based, so we created a general purpose, laser cut module in Rhino 3D that we would repeat over and over again across the assembly attached together by a string (i.e., beads on a string).
+Spaces and cavities need to be included so that the electronics and wiring could be able to pass through the assembly, in addition to being able to attach buttons onto the sides of each vertebrae section.
+The final assembly needs to be robust enough for it to hold together and be held by a user in both hands, but also flexible enough for it to be able to bend and undulate properly (i.e. press side buttons).
+![Spine Design](prcoess/Spine_Unit.png)
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
@@ -371,6 +308,21 @@ Think about how you want to present the information about what your sensor is se
 Build a cardboard prototype of your design.
 
 
+**Photos/videos of your cardboard prototype**
+<p align="center">
+  <img src="prototype/Cardboard_Prototype_1.jpg" width="30%"/>
+  <img src="prototype/Cardboard_Prototype_3.jpg" width="30%"/>
+  <img src="prototype/Cardboard_Prototype_4.jpg" width="30%"/>
+</p>
+
+<p align="center">
+
+  <img src="prototype/Cardboard_Prototype_2.jpg" width="50%"/>
+</p>
+
+
+
+
 **\*\*\*Document your rough prototype.\*\*\***
 
 
@@ -381,6 +333,18 @@ Build a cardboard prototype of your design.
 Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design, reiterated below.
 
 
+### Part 2 (Week 2)
+**Submit the following for Part 2:**  
+####E. Multi-Device Demo
+	- Code and video for your multi-input multi-output demo (e.g., chaining Qwiic buttons, servo, GPIO expander, etc.)
+	- Reflection on interaction effects and chaining
+
+####F. Final Documentation**
+	- Photos/videos of your final prototype
+	- Written summary: what it looks like, works like, acts like
+	- Reflection on what you learned and next steps
+
+---
 
 ### Part E
 
