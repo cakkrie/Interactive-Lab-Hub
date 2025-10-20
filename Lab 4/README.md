@@ -34,15 +34,15 @@ Collaborators: Thomas Knoepffler, Carrie Wang, Xiaocheng Li, Julia Chen, Dean Xu
 #### C. Physical Sensing Design
 **5 sketches of different ways to use your chosen sensor**
 <p align="center">
-  <img src="sketches/Interaction_Image_1.png" width="50%"/>
-  <img src="sketches/Interaction_Image_2.png" width="50%"/>
+  <img src="sketches/Interaction_Image_1.png" width="40%"/>
+  <img src="sketches/Interaction_Image_2.png" width="40%"/>
 </p>
 <p align="center">
-  <img src="sketches/Interaction_Image_3.png" width="50%"/>
-    <img src="sketches/Interaction_Image_4.png" width="50%"/>
+  <img src="sketches/Interaction_Image_3.png" width="40%"/>
+    <img src="sketches/Interaction_Image_4.png" width="40%"/>
 </p>
 <p align="center">
-  <img src="sketches/Interaction_Image_5.png" width="50%"/>
+  <img src="sketches/Interaction_Image_5.png" width="40%"/>
 </p>
 
 
@@ -60,16 +60,16 @@ Video demonstration:
 #### D. Display & Housing**
 5 sketches for display/button/knob positioning
 <p align="center">
-  <img src="sketches/Form_Image_1.png" width="30%"/>
-  <img src="sketches/Form_Image_2.png" width="30%"/>
+  <img src="sketches/Form_Image_1.png" width="40%"/>
+  <img src="sketches/Form_Image_2.png" width="40%"/>
 </p>
 <p align="center">
-  <img src="sketches/Form_Image_3.png" width="50%"/>
-    <img src="sketches/Form_Image_4.png" width="50%"/>
+  <img src="sketches/Form_Image_3.png" width="40%"/>
+    <img src="sketches/Form_Image_4.png" width="40%"/>
 </p>
 <p align="center">
-  <img src="sketches/Form_Image_5.png" width="50%"/>
-  <img src="sketches/Form_Image_6.png" width="50%"/>
+  <img src="sketches/Form_Image_5.png" width="40%"/>
+  <img src="sketches/Form_Image_6.png" width="40%"/>
 </p>
 
 **Written reflection: questions raised, what to prototype**
