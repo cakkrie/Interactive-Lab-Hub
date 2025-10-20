@@ -100,6 +100,7 @@ F) [Record the interaction](#part-f)
 	If you see "Hello blinka!", your setup is correct. If not, follow the troubleshooting steps in the file or ask for help.
 
 </details>
+
 ### Part A
 
 <details> 
