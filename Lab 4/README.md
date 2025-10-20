@@ -338,7 +338,8 @@ Video demonstration:
 
 ### Part E
 
-#### Chaining Devices and Exploring Interaction Effects
+<details> 
+<summary><strong>Chaining Devices and Exploring Interaction Effects</strong></summary>
 
 For Part 2, you will design and build a fun interactive prototype using multiple inputs and outputs. This means chaining Qwiic and STEMMA QT devices (e.g., buttons, encoders, sensors, servos, displays) and/or combining with traditional breadboard prototyping (e.g., LEDs, buzzers, etc.).
 
@@ -497,17 +498,22 @@ python pi_servo_hat_test.py
 For more details and advanced usage, see the [official SparkFun Servo pHAT documentation](https://learn.sparkfun.com/tutorials/pi-servo-phat-v2-hookup-guide/all#resources-and-going-further).
 A servo motor is a rotary actuator that allows for precise control of angular position. The position is set by the width of an electrical pulse (PWM). You can read [this Adafruit guide](https://learn.adafruit.com/adafruit-arduino-lesson-14-servo-motors/servo-motors) to learn more about how servos work.
 
+</details>
+
 ---
 
 
 ### Part F
 
-### Record
+<details> 
+<summary><strong>Record</strong></summary>
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
+
+</details>
 
 ### <mark> Proof of Concept Testing (Acts Like)</mark>
 
